@@ -1,0 +1,176 @@
+body {
+  font-family: "Montserrat";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color:white;
+}
+
+.white-section {
+background-color: white;
+}
+
+
+
+/* Titles */
+#title {
+text-align: center;
+
+}
+
+.title-text {
+  font-family: 'Montserrat';, sans-serif;
+  color: white;
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: 900;
+
+}
+
+H1, H2, H3, H4, H5, H6 {
+  font-family: "Montserrat";
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.rotated {
+  transform: rotate(25deg);
+  position: absolute;
+  width: 20%;
+  z-index:0;
+
+}
+
+@media (max-width: 991px) {
+  .rotated {
+    align-items: center;
+    position: static;
+    transform: rotate(0deg);
+    padding-top: 2%;
+  }
+}
+
+  .row {
+    padding-top: 3rem;
+  }
+
+  /* Navigation Bar */
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+
+  .navbar-brand {
+    font-family: Ubuntu;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  .nav-item {
+    padding: 18px;
+    font-size: 1.2rem;
+    font-family: Montserrat;
+  }
+
+  /* Buttons */
+  .download-button {
+    margin: 5% 3% 5%;
+  }
+
+/* Features */
+#features {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  background-color: white;
+  padding: 7% 15%
+
+}
+
+.feature-text {
+  font-size: 1.5rem;
+}
+
+.fa-solid {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.fa-solid:hover {
+  color: #ff4c68;
+}
+/* Testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-text {
+  font-family: Montserrat;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.test-photo {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.media {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing {
+  text-align: center;
+  padding: 100px;
+  font-weight: bold;
+}
+
+.pricing-header {
+  font-size: 3rem;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+  font-weight:normal;
+}
+
+.pricing-text {
+  font-size: 1.5rem;
+}
+
+/* Call to Action */
+#cta {
+  text-align: center;
+  padding: 7% 15%;
+
+}
+
+/* Footer */
+#footer .fa-brands {
+  padding: 3% 1%;
+  text-align: center;
+}
